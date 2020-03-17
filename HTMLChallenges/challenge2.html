@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+  <!-- 
+    Challenge 2
+      Movie Rating
+      
+      Bronze: 
+      Make an h2 tag saying 'Movies!'
+      Make a TABLE with a HEADER 
+      In the header, have 4 COLUMNS with the headers reading: 'Movie Title', 'Year', 'Runtime', and 'Rating'
+      Add at least 3 movies (you can make the info up)
+
+      Silver: 
+      Using CSS: 
+      Add a BACKGROUND COLOR of LIGHT SKY BLUE
+      Put a BORDER around the table that is BLACK
+
+      Gold:
+      ITALICIZE the movie titles
+      Set the table in the CENTER 
+   -->
+
+   <h2>Movies!</h2>
+   <table>
+     <thead>
+       <tr>
+         <th>Movie Title</th>
+         <th>Year</th>
+         <th>Runtime</th>
+         <th>Rating</th>
+       </tr>
+     </thead>
+     <tbody>
+       <tr>
+         <td>Friday</td>
+         <td>1995</td>
+         <td>1hr 37m</td>
+         <td>4/5</td>
+       </tr>
+       <tr>
+         <td>Veggie Tales Jonah and the Whale</td>
+         <td>2002</td>
+         <td>1hr 20m</td>
+         <td>5/5</td>
+       </tr>
+       <tr>
+         <td>White House Down</td>
+         <td>2013</td>
+         <td>2hr 11m</td>
+         <td>3.5/5</td>
+       </tr>
+     </tbody>
+   </table>
+
+   <style>
+
+     body {
+       background-color: lightskyblue;
+     }
+
+     h2 {
+       text-align: center;
+     }
+
+     table {
+       border: 5px solid black;
+       margin: auto;
+       border-collapse: collapse;
+     }
+     
+     tr td:first-child {
+       font-style: italic;
+     }
+
+     
+    th, td {
+      border: 1px solid black;
+      padding: 15px;
+    }
+
+    tr:nth-child(odd) {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+
+   </style>
+
+</body>
+</html>

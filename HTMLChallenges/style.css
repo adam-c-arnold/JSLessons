@@ -1,0 +1,21 @@
+body {
+    background-color: lightskyblue;
+    
+}
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    border-width: 500px;
+    border-radius: inherit;
+    border-radius: 25px;
+    border-width: thick;
+    border-color: black;
+    border-style: solid;
+    font-style: italic;
+    
+    
+}
+h2 {
+    text-align: center;
+}
+
