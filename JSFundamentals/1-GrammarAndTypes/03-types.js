@@ -51,9 +51,10 @@ let street = 'w 116th st';
 let city = 'Carmel';
 let state = 'IN';
 let zipCode = 46032;
+console.log(`${firstName} ${lastName} $`)
  
-let address = firstName + ' ' + lastName + ', ' + houseNumber + ' ' + street + ' ' + city + ' ' + state + ' ' + zipCode + ' '
-console.log(address);
+//let address = firstName + ' ' + lastName + ', ' + houseNumber + ' ' + street + ' ' + city + ' ' + state + ' ' + zipCode + ' '
+//console.log(address);
 //Object
 let firstObject = {
     integer: 50,
