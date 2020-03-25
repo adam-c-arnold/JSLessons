@@ -6,7 +6,9 @@ let tired = true;
 let soup = {
     a: 'chicken noodle',
     b: 'tomato',
-    c: 'beef and barley'
+    c: 'beef and barley'//method within property
+    
+    }
 };
 
 let car = 'Honda';

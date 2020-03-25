@@ -20,4 +20,18 @@ if(name[0] === name[0].toUpperCase()) {
     console.log(fullName);
 }
 
+//IF block
+let age = 22;
+
+if (age <= 17) {
+    console.log(`sorry, you're too young to do anything.`);
+} else if (age <= 20 ) {
+    console.log(`yay, you can vote!`);
+} else if (age <= 24) {
+    console.log(`yay, you can drink!`);
+} else {
+    console.log(`yay, you can rent a car!`);
+}
+
+
 
